@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Me | Portfolio</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="projects.html">MY PROJECTS</a></li>
+            <li><a href="contact.html">CONTACT ME</a></li>
+            <li><a href="resume.html">RESUME</a></li> <!-- Added Resume link -->
+        </ul>
+    </nav>
+
+    <main>
+        <section id="contact">
+            <h2>CONTACT ME</h2>
+            <p>I’d love to hear from you! Fill out the form below to get in touch.</p>
+            <div class="form-container">
+                <form>
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="subject">SUBJECT</label>
+                    <input type="text" id="subject" name="subject">
+                    
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rahul. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
